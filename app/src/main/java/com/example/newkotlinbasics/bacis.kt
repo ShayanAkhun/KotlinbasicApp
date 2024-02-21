@@ -1,18 +1,20 @@
 package com.example.newkotlinbasics
 
+
+
+
+data class User (val id :Long, val name : String)
 fun main() {
 
-//        val myStr = "hello world"
-//        var newStr = myStr[0]
-//        var lastStr = myStr[myStr.length - 1]
-//    print("First Charater $newStr")
 
-//
-//    var x = 100
-//     while ( x >= 0){
-//         println("$x")
-//         x -=1
-//     }
+
+    val user1= User(1, "shayan")
+
+    val name = user1.name
+    println(name)
+
+
 
 
 }
+
